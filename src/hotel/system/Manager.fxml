@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="458.0" style="-fx-background-color: #A4999F;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel.system.ManagerController">
+   <children>
+      <Label alignment="CENTER" layoutX="179.0" layoutY="8.0" text="Manager">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="73.0" layoutY="77.0" onDragDetected="#Complainandqueries" prefHeight="167.0" prefWidth="365.0" style="-fx-background-color: #BEB5B6;">
+         <children>
+            <Label layoutX="108.0" layoutY="14.0" prefHeight="20.0" prefWidth="150.0" text="Complain and Query">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Complains" layoutX="24.0" layoutY="64.0" text="Complain and queries">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="176.0" layoutY="61.0" />
+            <Button layoutX="141.0" layoutY="107.0" mnemonicParsing="false" onAction="#Done" prefHeight="39.0" prefWidth="70.0" text="Done">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="210.0" layoutY="267.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

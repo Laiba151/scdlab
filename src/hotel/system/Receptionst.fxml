@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #AFADB4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel.system.ReceptionstController">
+   <children>
+      <Label layoutX="234.0" layoutY="14.0" text="Receptionst" textFill="#361414">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="34.0" layoutY="76.0" prefHeight="164.0" prefWidth="200.0" style="-fx-background-color: #BAB1B3;">
+         <children>
+            <Label layoutX="23.0" layoutY="29.0" text="Check room availability ">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="322.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #A49A9C;">
+         <children>
+            <Label layoutX="39.0" layoutY="30.0" text="Customer information">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Button layoutX="258.0" layoutY="320.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

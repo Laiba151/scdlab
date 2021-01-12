@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="230.0" prefWidth="449.0" style="-fx-background-color: linear-gradient(to left bottom, #1769e4, #0088f2, #00a2f5, #00baf1, #12cfeb);" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="hotel.system.FXMLDocumentController">
+    <children>
+        <Button fx:id="Receptionstbutton" layoutX="194.0" layoutY="129.0" onAction="#Receptionst" text="Receptionist" />
+      <Button fx:id="MAnagerButton" layoutX="344.0" layoutY="129.0" onAction="#Manager" text="Manager" />
+      <Button fx:id="CustomerButton" layoutX="56.0" layoutY="129.0" onAction="#Customer" text="Customer" />
+      <Label layoutX="91.0" layoutY="40.0" text="Hotel Management System" textFill="#fdfafa">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
